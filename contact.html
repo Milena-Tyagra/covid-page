@@ -1,0 +1,49 @@
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <title>Covid-19 :. Home .: </title>
+</head>
+<body>
+    <header>
+        <div class="tittle">
+            <h1>Seu portal de notícias atualizadas sobre as vacinas do Covid-19</h1>
+        </div>
+            
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">Sobre</a>
+            <a href="contact.html">Contato</a>
+            <a href="more.html">Saiba Mais</a>
+        </div>
+    </header>
+    <div class="form">
+        <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Nome:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="100" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">E-mail:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="100" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Sua mensagem:</label><br />
+    <textarea id="message" class="input" name="message" rows="10" cols="100"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Enviar e-mail" />
+</form>
+    </div>
+    <footer>
+        <h3>All Rights Reserved</h3>
+    </footer>
+</body>
+</html>
